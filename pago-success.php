@@ -10,7 +10,7 @@
 			<?php print_r($_GET); ?>
 		</pre>
 
-		<a href="." class="mercadopago-button" style="display:inline-block">Volver</a>
+		<a href="/" class="mercadopago-button" style="display:inline-block">Volver</a>
 	</div>
 </section>
 
