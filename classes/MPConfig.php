@@ -99,7 +99,7 @@ class MPConfig {
 
 
 
-		$preference->notification_url = 'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-success/webhook.php';
+		$preference->notification_url = 'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/webhook.php';
 		$preference->external_reference = 'rodosoft@hotmail.com';
 		$preference->back_urls = array(
 			'success'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-success/',
