@@ -102,9 +102,9 @@ class MPConfig {
 		$preference->notification_url = 'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/webhook.php';
 		$preference->external_reference = 'rodosoft@hotmail.com';
 		$preference->back_urls = array(
-			'success'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-success/',
-			'failure'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-failure/',
-			'pending'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-pending/'
+			'success'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-success.php',
+			'failure'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-failure.php',
+			'pending'=>'https://rodoamoroso-mp-ecommerce-php.herokuapp.com/pago-pending.php'
 			//'success'=>'https://localhost/mp-ecommerce-php/pago-success.php',
 			//'failure'=>'https://localhost/mp-ecommerce-php/pago-failure.php',
 			//'pending'=>'https://localhost/mp-ecommerce-php/pago-pending.php'
